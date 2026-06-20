@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Father's Day - From Saikrishna</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(-45deg,#0f2027,#203a43,#2c5364,#1c92d2);
+    background-size:400% 400%;
+    animation:bgMove 12s ease infinite;
+    color:white;
+    overflow-x:hidden;
+}
+
+@keyframes bgMove{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    text-shadow:0 0 20px rgba(255,255,255,0.5);
+}
+
+.hero h2{
+    margin-top:15px;
+    color:#ffd700;
+    font-size:2rem;
+}
+
+.hero p{
+    margin-top:20px;
+    max-width:700px;
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+.heart{
+    font-size:70px;
+    margin:25px 0;
+    animation:beat 1s infinite;
+}
+
+@keyframes beat{
+    0%,100%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+}
+
+.btn{
+    margin-top:20px;
+    padding:15px 35px;
+    background:#ffd700;
+    color:black;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:scale(1.08);
+}
+
+.section{
+    padding:80px 20px;
+}
+
+.card{
+    max-width:900px;
+    margin:auto;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(10px);
+    border-radius:25px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+
+.card h3{
+    text-align:center;
+    color:#ffd700;
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+.card p{
+    line-height:1.9;
+    font-size:1.1rem;
+}
+
+.quote{
+    margin-top:30px;
+    text-align:center;
+    font-style:italic;
+    color:#ffe082;
+    font-size:1.3rem;
+}
+
+.stars{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    pointer-events:none;
+}
+
+.star{
+    position:absolute;
+    color:white;
+    animation:float 8s linear infinite;
+}
+
+@keyframes float{
+    from{
+        transform:translateY(100vh);
+        opacity:0;
+    }
+    to{
+        transform:translateY(-100px);
+        opacity:1;
+    }
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    font-size:1.1rem;
+}
+
+.signature{
+    color:#ffd700;
+    font-size:1.4rem;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="stars">
+    <div class="star" style="left:10%;font-size:20px;">✨</div>
+    <div class="star" style="left:30%;font-size:25px;animation-delay:2s;">⭐</div>
+    <div class="star" style="left:50%;font-size:20px;animation-delay:4s;">✨</div>
+    <div class="star" style="left:70%;font-size:30px;animation-delay:1s;">⭐</div>
+    <div class="star" style="left:90%;font-size:25px;animation-delay:3s;">✨</div>
+</div>
+
+<section class="hero">
+    <h1>Happy Father's Day 👨‍👦</h1>
+    <h2>To My Greatest Hero</h2>
+
+    <div class="heart">💙</div>
+
+    <p>
+        A father is someone who silently sacrifices his happiness
+        to see his children smile. Thank you Dad for every lesson,
+        every blessing, and every moment of love.
+    </p>
+
+    <a href="#message" class="btn">Open My Message</a>
+</section>
+
+<section id="message" class="section">
+    <div class="card">
+        <h3>Dear Dad ❤️</h3>
+
+        <p>
+            Thank you for being my strength during difficult times,
+            my guide when I was confused, and my biggest supporter in life.
+            Your hard work and sacrifices have given me opportunities
+            and dreams that I will always cherish.
+            <br><br>
+            You taught me how to be honest, strong, respectful,
+            and never give up. No words can truly express how grateful
+            I am to have you as my father.
+            <br><br>
+            On this Father's Day, I want you to know that every success
+            I achieve carries a part of your effort and blessings.
+            You are not only my father but also my inspiration and role model.
+        </p>
+
+        <div class="quote">
+            "Any man can be a father, but it takes someone special to be a Dad."
+        </div>
+    </div>
+</section>
+
+<footer>
+    Made with ❤️ and endless gratitude by<br>
+    <div class="signature">Saikrishna</div>
+</footer>
+
+</body>
+  </html>
